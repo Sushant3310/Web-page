@@ -4,7 +4,7 @@
  * Copyright 2014-2021 Froala Labs
  */
 
- .fr-clearfix::after {
+.fr-clearfix::after {
   clear: both;
   display: block;
   content: "";
@@ -43632,28 +43632,31 @@ a.u-link.u-text-hover-grey-90:hover {
 
 
 /*end-variables sitestylecss*/
- .u-header {
-  background-image: none;
-}
-
 .u-header .u-sheet-1 {
-  min-height: 72px;
+  min-height: 78px;
 }
 
 .u-header .u-menu-1 {
-  margin: 20px -39px 20px auto;
+  margin: 20px 0 20px auto;
 }
 
 .u-header .u-nav-1 {
+  font-weight: 700;
   font-size: 1rem;
+  text-transform: uppercase;
 }
 
 .u-header .u-nav-2 {
   font-size: 1rem;
+  margin: 20px auto 0;
 }
 @media (max-width: 1199px) {
-  .u-header .u-menu-1 {
-    margin-right: -39px;
+  .u-header .u-sheet-1 {
+    min-height: 78px;
+  }
+
+  .u-header .u-nav-1 {
+    letter-spacing: normal;
   }
 }
 
@@ -43691,26 +43694,13 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-footer .u-icon-4 {
   color: rgb(0, 122, 185) !important;
 }
-							
-						
-					 
-   
- 
-						   
-						
-					  
-   
 
 
-
-						
-   
- 
-						   
-						
-					 
-   
- 
+@media (max-width: 767px) {
+  .u-footer .u-social-icons-1 {
+    margin-top: 20px;
+  }
+}
 @media (max-width: 575px) {
   .u-footer .u-sheet-1 {
     min-height: 98px;
@@ -43719,7 +43709,6 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-footer .u-social-icons-1 {
     margin-top: 26px;
     margin-bottom: 40px;
-					  
   }
 }
 
