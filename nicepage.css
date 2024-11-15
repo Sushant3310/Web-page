@@ -44768,6 +44768,12 @@ a.u-link.u-text-hover-grey-90:hover {
 
 
 /*end-variables sitestylecss*/
+ .u-header {
+  background-position: 50% 50%, 50% 50%;
+  background-repeat: no-repeat, no-repeat;
+  background-size: cover, cover;
+}
+
 .u-header .u-sheet-1 {
   min-height: 78px;
 }
